@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const API_URL = "https://extraordinary-pickachu-092504xo.netlify.app//.netlify/functions/api/";
+
 function Inventory()
  {
   
