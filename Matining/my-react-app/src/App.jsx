@@ -31,10 +31,6 @@ function Inventory()
     setSum('');
     }
 
-
-
-    
-
     const handlePriceChange = (e) => {
       const newPrice = parseFloat(e.target.value);
       if (!isNaN(newPrice)) {
@@ -65,7 +61,7 @@ function Inventory()
 
     return (
         <div class="container-fluid bg-2 text-center">
-            <h1>Inventory Management System React</h1>
+            <h1>Inventory Management System</h1>
             <br/>
         <div class="row">
             
